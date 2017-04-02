@@ -13,4 +13,11 @@
 	}]
 	,"require": {"mage2pro/core": ">=2.4.20"}
 	,"autoload": {"files": ["registration.php"], "psr-4": {"Dfe\\Geo\\": ""}}
+	,"keywords": [
+		"eCommerce"
+		,"Geolocation"
+		,"Magento"
+		,"Magento 2"
+		,"Magento extension"
+	]
 }
