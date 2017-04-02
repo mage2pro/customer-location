@@ -15,6 +15,7 @@
 	,"autoload": {"files": ["registration.php"], "psr-4": {"Dfe\\Geo\\": ""}}
 	,"keywords": [
 		"eCommerce"
+		,"freegeoip.net"
 		,"Geolocation"
 		,"Magento"
 		,"Magento 2"
