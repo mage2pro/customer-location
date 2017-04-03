@@ -3,7 +3,13 @@ The «[**Customer Location**](https://mage2.pro/t/78)» extension for Magento 2 
 ![](https://mage2.pro/uploads/default/original/1X/81b4f1e6e51f7bb7e429022065414247ccfb24e9.png)
 
 ## Installation 
-Follow the generic [installation instruction](https://mage2.pro/t/263). 
+```
+composer require mage2pro/geo:*
+bin/magento setup:upgrade
+rm -rf pub/static/* && bin/magento setup:static-content:deploy
+rm -rf var/di var/generation && bin/magento setup:di:compile
+```
+If you have some problems while executing these commands, then check the [detailed instruction](https://mage2.pro/t/263).
 
 ## Support
 - [The extension's **forum** branch](https://mage2.pro/t/78).
