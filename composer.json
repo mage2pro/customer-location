@@ -1,6 +1,6 @@
 {
-	"name": "mage2pro/geo"
-	,"version": "1.0.2"
+	"name": "mage2pro/customer-location"
+	,"version": "1.0.3"
 	,"description": "The «Customer Location» extension for Magento 2."
 	,"type": "magento2-module"
 	,"homepage": "https://mage2.pro/t/78"
@@ -11,8 +11,8 @@
 		"homepage": "https://mage2.pro/users/dmitry_fedyuk",
 		"role": "Developer"
 	}]
-	,"require": {"mage2pro/core": ">=2.4.20"}
-	,"autoload": {"files": ["registration.php"], "psr-4": {"Dfe\\Geo\\": ""}}
+	,"require": {"mage2pro/core": ">=2.5.22"}
+	,"autoload": {"files": ["registration.php"], "psr-4": {"Dfe\\CustomerLocation\\": ""}}
 	,"keywords": [
 		"eCommerce"
 		,"freegeoip.net"
