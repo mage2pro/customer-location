@@ -9,7 +9,8 @@ require([
 		/** @type {String} */
 		var address = $ipAddressCell.html();
 		if ('127.0.0.1' !== address) {
-			$.get('https://freegeoip.net/json/' + address, function(data) {
+			// 2018-06-18 "Update `freegeoip.net` to `freegeoip.app`": https://github.com/mage2pro/core/issues/76
+			$.get('https://freegeoip.app/json/' + address, function(data) {
 				/** @type {String} */
 				var location =
 					[data['country_name'], data['region_name'], data['city']]
